@@ -19,14 +19,14 @@ bs4==0.0.1
 cachetools==5.0.0
 certifi==2021.10.8
 cffi @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/croot-jgj0vmyy/cffi_1642701117808/work
-charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1655906222726/work
+charset-normalizer==2.0.12
 ChatterBot==1.0.4
 chatterbot-corpus==1.2.0
-click==8.1.3
+click==7.1.2
 codetiming==1.2.0
-colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1655412516417/work
+colorama==0.4.4
 commonmark==0.9.1
-cryptography==36.0.2
+cryptography @ file:///Users/runner/miniforge3/conda-bld/cryptography_1635145370133/work
 cssselect==1.1.0
 cycler==0.11.0
 dateparser==1.1.1
@@ -40,7 +40,7 @@ entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1643
 executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1646044401614/work
 facebook-scraper==0.2.55
 fake-useragent==0.1.11
-filelock @ file:///home/conda/feedstock_root/build_artifacts/filelock_1654070194245/work
+filelock==3.6.0
 Flask==2.0.3
 Flask-Cors==3.0.10
 flatbuffers==2.0
@@ -65,9 +65,9 @@ h11==0.13.0
 h5py @ file:///Users/builder/miniconda3/envs/prefect/conda-bld/h5py_1637162753555/work
 html5lib==1.1
 httplib2==0.20.4
-huggingface-hub @ file:///home/conda/feedstock_root/build_artifacts/huggingface_hub_1656151962285/work
+huggingface-hub==0.4.0
 idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1642433548627/work
-importlib-metadata==4.11.2
+importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1602263269022/work
 importlib-resources @ file:///home/conda/feedstock_root/build_artifacts/importlib_resources_1648277295813/work
 ipykernel @ file:///Users/runner/miniforge3/conda-bld/ipykernel_1620913002553/work/dist/ipykernel-5.5.5-py3-none-any.whl
 ipython @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-wyye904g/ipython_1646949515830/work
@@ -107,7 +107,7 @@ nbconvert @ file:///home/conda/feedstock_root/build_artifacts/nbconvert-meta_164
 nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1646951096007/work
 neattext==0.1.2
 nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1638419302549/work
-nltk==3.7
+nltk @ file:///home/conda/feedstock_root/build_artifacts/nltk_1640748215808/work
 notebook @ file:///home/conda/feedstock_root/build_artifacts/notebook_1647377876077/work
 numba==0.55.2
 numpy @ file:///Users/ktietz/ci_310/numpy_and_numpy_base_1644255410823/work
@@ -304,11 +304,11 @@ python-dotenv @ file:///home/conda/feedstock_root/build_artifacts/python-dotenv_
 pyttsx3==2.90
 pytz==2023.3
 pytz-deprecation-shim==0.1.0.post0
-PyYAML==3.13
+PyYAML==6.0.1
 pyzmq @ file:///Users/runner/miniforge3/conda-bld/pyzmq_1631793572519/work
 readme-renderer==35.0
-regex @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c16d2a8a-126e-4d7e-8084-357d1f1d1103zj2vwnhn/croots/recipe/regex_1658257182710/work
-requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1656534056640/work
+regex==2022.3.2
+requests==2.27.1
 requests-html==0.10.0
 requests-oauthlib==1.3.1
 requests-toolbelt==0.9.1
@@ -316,9 +316,9 @@ resampy==0.3.1
 rfc3986==2.0.0
 rich==12.5.1
 rsa==4.8
-sacremoses @ file:///home/conda/feedstock_root/build_artifacts/sacremoses_1651557636210/work
-scikit-learn @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c0267ca0-12ff-4800-bd07-7f998adef27bh_cts5yf/croots/recipe/scikit-learn_1658419411147/work
-scipy==1.8.0
+sacremoses==0.0.49
+scikit-learn==1.0.2
+scipy @ file:///Users/ktietz/ci_310/scipy_1644255974431/work
 seaborn==0.11.2
 selenium==4.1.3
 semver==2.13.0
@@ -348,17 +348,17 @@ testpath @ file:///home/conda/feedstock_root/build_artifacts/testpath_1645693042
 textblob==0.17.1
 tf-estimator-nightly==2.8.0.dev2021122109
 threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1643647933166/work
-tokenizers==0.11.6
+tokenizers @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_7db77927-99b6-465c-8ca1-ec571d368d0bpvthvh8_/croots/recipe/tokenizers_1651822590284/work
 toml==0.10.2
 tomli==2.0.1
 toolz==0.12.0
-torch==1.12.0
+torch==1.10.2
 torchsummary==1.5.1
 torchvision==0.13.0
 tornado @ file:///Users/runner/miniforge3/conda-bld/tornado_1625488956802/work
-tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1649051611147/work
+tqdm==4.56.2
 traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1635260543454/work
-transformers @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_43b51dd6-c0af-4091-a158-233ff35323a4bby_b738/croots/recipe/transformers_1651834317803/work
+transformers==4.17.0
 trio==0.20.0
 trio-websocket==0.9.2
 twine==4.0.1
